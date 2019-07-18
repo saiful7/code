@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<center>
+    <h1> SATTA KING MATKAA RESULT SATTA KINGS MATKAA MATKA NUMBER SATTA KING MATKAA SATTA GAME DESAWAR GALI DELHI6
+        RESULT SATTA FREE RESULT DELHI RESULT NUMBER DELHI6 MORADABAD RESULT SATTA GALI SATTA MORADABAD SATTA MORADABAD
+        CHART RECORD DELHI6 CHART OLD SATTA CHART TOP GUSSER MATKA LINK MATKA COM LIVE RESULT SATTA MATKA NUMBER SATTA
+        NEWS
+    </h1>
+    <div class="ads" style="padding:8px 0; margin:8px 0; background: white">
+        <p style="color:blue; font-size: small;"> Sattakingmatkaa.com is most populer gaming discussion forum for
+            players to use freely and we are not in partenership with any gaming company.
+        </p>
+    </div>
+
+
+    <div class="ads" style="padding:8px 0; margin:8px 0; background: white">
+        <p style="color:blue; font-size: small;"> अगर आप अपनी गेम का रिजल्ट हमारी साईट पर डलवाना चाहते है तो हमें मेल
+            करके अपनी गेम का नाम और रिजल्ट का समय बताये, इसका हर महीने का चार्ज एडवांस लिया जायेगा | E-Mail Address </p>
+    </div>
+
+
+    <div class="padding_10" style="background:#93fbc3;color:#000; font-size: small;">
+        इसका गिला नहीं बहुत गम उठाये है।
+        बर्बादियां नसीब मैं लिख्वाके आये है ।<br>
+        --------------------------------------<br>
+        नमस्कार भाईयो लुटेरों से बच कर रहो
+        मैने बहुत दिनो से देख रहा हू कुछ लोग आपसे पैसे लेके block कर देते है ।
+        इसमे खास कर लड़कियाँ सामिल है ।<br>
+        --------------------------------------<br>
+        बचकर रहे मैं राजवीर चौहान आपसे बादा करता हू की अपको ये सिकायत का मौका अपको नहीं मिलेगा।<br>
+        --------------------------------------<br>
+        सिर्फ सिंगल नम्बर अपको दूँगा । सिंगल नम्बर आपकी तकदीर बदल देगा । <br>
+        वॉट्सएप्प करो या कॉल
+        मैनेजिंग डायरेक्टर<br>
+        --------------------------------------<br>
+
+    </div>
+    <div style="margin: 8px 2% 2px 2%; color: #339966">Updated:
+        <time datetime="2018-12-20T23:26:03+05:30"></time>
+        IST.
+    </div>
+</center>
+
+
+<div class="content">
+
+    <table class="game-table">
+        <tr class="game-date">
+            <td colspan="2" class="date">
+                <h1> Live Satta Updated Results {{today}} </h1>
+            </td>
+        </tr>
+        {% for d in dataT %}
+        <tr class="game-result">
+            <td class="game-time">
+                <h2 class="game">{{d[3]}}</h2>
+                <h2 class="time">{{d[5]}}</h2>
+                <a href="/showFor?{{d[6]}}" style="color:blue; font-size: small">Record Chart</a></td>
+            <td class="game-number">
+                <h3 class="number">{{d[4]}}</h3>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+<div class="content">
+
+    <table class="game-table">
+        <tr class="game-date">
+            <td colspan="2" class="date">
+                <h1>Satta King Bazar Results of {{yest}} </h1>
+            </td>
+        </tr>
+        {% for d in dataY %}
+        <tr class="game-result">
+            <td class="game-time">
+                <h2 class="game">{{d[3]}}</h2>
+                <h2 class="time">{{d[5]}}</h2>
+                <a href="/showFor?{{d[6]}}" style="color:blue; font-size: small">Record Chart</a></td>
+            <td class="game-number">
+                <h3 class="number">{{d[4]}}</h3>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+
+{{ showFH | safe}}
+</div>
+
+
+{% endblock %}
+
+

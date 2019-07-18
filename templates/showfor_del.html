@@ -1,0 +1,33 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 col-md-6">
+
+<div id="mix-chart" class="chart">
+<table class="chart-table">
+<tbody><tr class="chart-head">
+<td colspan="6" class="month">
+<h1>{{city}} Satta Result Record Chart of {{mm}}-{{yy}}</h1>
+</td>
+</tr>
+<tr class="date-name">
+<td class="date" title="Days in {{mm}}/{{yy}} ">DATE</td>
+<th class="name">{{cityT}}</th>
+</tr>
+{% for dd in data %}
+<tr class="day-number">
+<td class="day" title="{{dd[0]}}-{{mm}}-{{yy}}">{{dd[0]}}</td>
+<td class="number">{{dd[4]}}</td>
+</tr>
+{% endfor %}
+
+<tr class="space">
+<td colspan="6"></td>
+</tr>
+</tbody></table>
+</div>
+
+
+        </div>
+    </div>
+</div>

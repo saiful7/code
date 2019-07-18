@@ -1,0 +1,75 @@
+
+<div class="container">
+
+	<div class="row sfdiv">
+		<div class="">
+
+            <form method="post" action="/search">
+                <center>
+            Yahan Aap Month Aur Year Select Karke Gali, Desawar, Ghaziabad Aur Faridabad Ka Combined Chart Dekh Sakte Hai.
+                <br>
+            <select id="month" name="month">
+            {% for mm,MM in months%}<option value="{{mm}}">{{MM}}</option>{% endfor %}
+            </select>
+            <select id="year" name="year">
+            {% for yy in years%}<option value="{{yy}}">{{yy}}</option>{% endfor %}
+            </select>
+            <input id="direct-chart" type="submit" value="Go">
+                </center>
+            </form>
+<hr>
+{{msg}}
+
+
+     </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+	<div class="row sfdiv">
+		<div class="">
+
+            <form method="post" action="/subscribe">
+                <center>
+            Yahan Aap aur Number daal kar jaane hamare latest updates sidhe apne phone par!!
+                <br>
+            Name:<input name="username">
+            Phone:<input name="phno">
+            <input id="direct-chart" type="submit" value="Subscribe">
+                </center>
+            </form>
+     </div>
+    </div>
+</div>
+
+<div class="container"> 
+<div class="row cont6">
+<p> Satta King Matkaa Results, Satta Matka Results, Satta King Results, Satta Matka Numbers, Satta King Numbers, Satta Matka Free Results, Satta King Free Results,  Satta King Delhi, Satta Matka Delhi, Satta King Faridabad, Satta matka Faridabad, Satta King Ghaziabad, Satta Matka Ghazibada, Satta King Old Chart, Satta Matka Old Chart 2019 Live Results are shown over sattakingmatkaa.com. The Data has been updated on our website in realtime.
+ </p> 
+</div>
+
+</div>
+
+
+
+<!-- -->
+<footer>
+     <div class="container-fluid  py-3 ">
+    <div class="container">
+      <div class="row">
+         <div class="col-md-6 text-white">
+                <div><h4>  </h4>
+                    <a class="text-center"> Copyright © 2019 Satta king Today - Power By Satta King </a>
+
+        		</div></div>
+	<div class="col-md-6 text-white" >
+
+	<a> About us </a> | <a> Contact us </a> | <a> Pravcy policy </a>
+</div> 
+</footer>
+
+
+</body>
+</html>

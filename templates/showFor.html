@@ -1,0 +1,56 @@
+{% if not hide %}
+{% extends "layout.html" %}
+    {% endif %}
+{% block content %}
+
+<div class="container">
+	<div class="row">
+
+            <div class="col-md-12">
+            <div id="mix-chart" class="chart">
+            <table class="chart-table">
+            <tbody><tr class="chart-head">
+            <td colspan="6" class="month">
+            <h1>{{city}} Satta Result Record Chart of {{mmS}} {{yy}}</h1>
+            </td>
+            </tr>
+            <tr class="date-name">
+            <td class="date" title="Days in {{mm}}/{{yy}} ">DATE</td>
+            {% for cityThh in header[1:] %}
+            <th class="name">{{cityThh}}</th>
+            {% endfor %}
+            </tr>
+            {% for dd in data %}
+            <tr class="day-number">
+            <td class="day" title="{{dd[0]}}-{{mm}}-{{yy}}">{{dd[0]}}</td>
+            {% for ddi in dd[1:] %}
+                <td class="number">{{ddi}}</td>
+            {% endfor %}
+            </tr>
+            {% endfor %}
+
+            <tr class="space">
+            <td colspan="6"></td>
+            </tr>
+            </tbody></table>
+
+<div class="btn-show">
+
+                <a  class=" ftleft btn btn-primary btnNext" href="{{nav['prev_url']}}">{{nav['prev_str']}}</a>
+
+                    <a class="ftright btn btn-primary btnNext pull-right" href="{{nav['next_url']}}">{{nav['next_str']}}</a>
+</div>
+            {{ search | safe}}
+
+            </div>
+            </div>
+     </div>
+    </div>
+
+
+{% endblock %}
+
+
+
+
+

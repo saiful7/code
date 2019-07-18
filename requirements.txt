@@ -1,0 +1,4 @@
+flask
+pytz
+bs4
+requests

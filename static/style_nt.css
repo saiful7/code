@@ -1,0 +1,119 @@
+/* new theme */
+
+ .jumbotron h2 {
+        font-size: 39px !important;
+    padding: 10px;
+}
+*{    line-height: 22px !important;}
+
+.ft a{ color:#fff !important;}
+.pd-s{ padding:4px;}
+select {
+    color: black;
+}
+
+.navbar-brand>img {
+       height: 60px !important;
+max-height: 60px !important;
+}
+
+/*
+.navbar{ background-color: #3f48cc !important;}
+.navbar-nav>li>a {
+       background-color:#5CDB95 ; color:#fff !important;      margin:7px !important;     font-size: 20px;}
+
+.navbar-nav>li>a:hover {background-color:#fee93b !important; color:#000 !important; }
+.navbar-nav{display:block !important; backgraound-color:#5CDB95; font-color:#05386B !important; }
+*/
+.advs{background-color: #2d87e2 !important; padding:25px;}
+.ads{padding:8px 0; margin:8px 0; background: white; color:#000;     line-height: 24px;}
+.blbg{background-color: #3f48cc !important; padding:30px; border-radius:35px;}
+
+
+.cont6{     background-color: #ffffff !important;
+    padding: 31px;
+    color: #252424; line-height: 24px !important;
+    border-radius: 40px;  margin-bottom: 20px;    }
+.cont6 p{  line-height: 24px;}
+.cont6 h1{font-size: 30px !important;   line-height: 24px;}
+
+.cont9{     background-color: #ffffff !important;
+    padding: 31px;
+    color: #252424; line-height: 24px !important;
+    border-radius: 40px;       margin-bottom: 20px;   }
+.cont9 p{  font-size: 24px !important;}
+
+.cont9> h1{ font-size: 34px !important; }
+
+.cont9> h2{  font-size: 26px !important;}
+
+footer{ background-color: black;
+    margin-top: 20px !important;
+    padding: 10px !important;
+}
+.btn-primary, #direct-chart
+{
+
+color: #000 !important; background-color: #fee93b !important; border-color: #fee93b !important;
+}
+
+body{   background-color: lightgray !important;
+}
+
+input {
+    min-height: 35px;     min-width: 249px; color:#000;}
+/* */
+.ftleft {
+	float: left;
+
+}
+.ftright {
+	float: right;
+	}
+
+.sfdiv{
+    margin: 23px 0 23px 0;    color: white;
+
+    background-color: #3f48cc;
+    display: inline-block;
+    padding: 30px;
+    font-size: 19px;
+}
+
+.sfdivbl{
+    margin: 23px 0 23px 0;    color: white;
+
+    background-color: #2d87e2;
+    display: inline-block;
+    padding: 30px;
+    font-size: 19px;
+}
+
+
+.btn-show{
+    display: flow-root;
+    clear: both;}
+
+.sftxt{
+
+    width: 100%;
+    text-align: center;
+    margin: 23px 0 23px 0;    color: white;
+    border: 1px solid #003399;
+    background-color: rgb(23, 108, 238);
+
+    display: inline-block;
+    padding: 8px 4px;
+}
+
+.container{ text-align:center !important;}
+. content{   margin: 2% 5% 2% 5% !important; }
+.container::after footer{ display:none important}
+
+.bg1{     background: #248e9a !important;}
+
+
+/**/
+
+
+
